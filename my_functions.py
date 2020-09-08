@@ -73,3 +73,13 @@ for chicken in chickens:
 print(f"{total_eggs} eggs collected")
 
 
+def count_eggs( list ):
+    total_eggs = 0
+
+    for bird in list:
+        total_eggs += bird["eggs"]
+        bird["eggs"] = 0 # eggs have been collected
+
+    return f"{total_eggs} eggs collected"
+
+print(count_eggs(chickens))
