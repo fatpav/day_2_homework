@@ -22,4 +22,3 @@ def greet(name):
 greeting = greet("Paul")
 print(greeting)
 
-
