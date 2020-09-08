@@ -43,4 +43,33 @@ time_of_day_2 = "afternoon"
 greeting = greet(name_2, time_of_day_2)
 print(greeting)
 
+# names of variables passed as arguments don't have to match the function's original parameters
+
+# def greet():
+#     words = "Hey"
+#     return words
+
+# def greet_2():
+#     return words
+
+# print(greet_2())
+
+# the function greet_2 has no knowledge of the variable inside greet therefore returns an error
+
+#  I will create a dictionary of chickens
+chickens = [
+    { "name": "Marge", "age": 2, "eggs": 0 },
+    { "name": "Beyonce", "age": 1, "eggs": 3 },
+    { "name": "Clucky", "age": 4, "eggs": 7 },
+    { "name": "Susan", "age": 2, "eggs": 4 },
+]
+
+total_eggs = 0
+
+for chicken in chickens:
+    total_eggs += chicken["eggs"]
+    chicken["eggs"] = 0
+
+print(f"{total_eggs} eggs collected")
+
 
