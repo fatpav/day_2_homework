@@ -11,4 +11,6 @@
 # instead of printing :"Hey there" it will return it
 def greet():
     return "Hey there"
-greet()
+
+greeting = greet()
+print(greeting)
