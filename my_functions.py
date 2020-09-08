@@ -9,8 +9,17 @@
 
 # the return command is used when you want something from the function.
 # instead of printing :"Hey there" it will return it
-def greet():
-    return "Hey there"
+# def greet():
+#     print("Hey there")
 
-greeting = greet()
+# greeting = greet()
+# print(greeting)
+
+# The value none indicates an absence of a value
+
+def greet(name):
+    return "Hey " + name
+greeting = greet("Paul")
 print(greeting)
+
+
