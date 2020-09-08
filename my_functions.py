@@ -17,8 +17,16 @@
 
 # The value none indicates an absence of a value
 
-def greet(name):
-    return "Hey " + name
-greeting = greet("Paul")
+# def greet(name):
+#     return "Hey " + name
+# greeting = greet("Paul")
+# print(greeting)
+
+# I gave the function a parameter and instructed it to give it's return to the variable greetign
+# Now I'm going to give the function multiple parameters
+
+def greet(name, time_of_day):
+    return "Good " + time_of_day + ", " + name + "."
+greeting = greet("Paul", "morning")
 print(greeting)
 
