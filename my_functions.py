@@ -5,7 +5,9 @@
 #      print("Hey there")
 # greet()
 
-# The function is 'called' with the function name and brackets 
+
+# The function is 'called' with the function name and brackets
+# I also left 2 blank spaces after the function to show the end 
 
 # the return command is used when you want something from the function.
 # instead of printing :"Hey there" it will return it
@@ -83,3 +85,5 @@ def count_eggs( list ):
     return f"{total_eggs} eggs collected"
 
 print(count_eggs(chickens))
+
+# So I've done thebits but I'm not SUPER sure of what it is exactly.
